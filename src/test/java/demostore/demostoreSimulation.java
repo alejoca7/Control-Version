@@ -137,7 +137,7 @@ public class demostoreSimulation extends Simulation {
 
     {
         setUp(scnFlow.injectOpen(
-                rampUsers(60).during(60)
+                rampUsers(30).during(60)
                 )
         ).protocols(httpProtocol);
     }
