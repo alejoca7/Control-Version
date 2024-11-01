@@ -1,2 +1,6 @@
-/target
-/.mvn/wrapper/*.jar
+target/
+.idea/
+*.log
+*.iml
+.classpath
+.project
